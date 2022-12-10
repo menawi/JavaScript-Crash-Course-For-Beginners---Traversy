@@ -12,5 +12,8 @@
     - arrays of objects
     - 
 
+!!! tip Links to Exercises
+    [javascript exercises](https://www.w3resource.com/javascript-exercises/javascript-basic-exercises.php)
+    
 
     
