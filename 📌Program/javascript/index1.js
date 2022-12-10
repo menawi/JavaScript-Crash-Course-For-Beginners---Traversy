@@ -100,4 +100,3 @@ console.log(longWordsTwo);
 // ⚠️ ADDS A STUPID 'T' BEFORE EVERY WORD + DOESN'T CREATE AN ARRAY 
 
 }
-
