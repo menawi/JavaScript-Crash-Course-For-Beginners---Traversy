@@ -81,21 +81,21 @@ If a word from array of words is shorter than 9 letters, then remove it from the
 
 // 📌 ADD ',' BETWEEN EACH WORD
 
-{ // ⚠️PROBLEM HERE
-    const longWordsList = 'ability	able	about	above	accept	according	account	across	act	action	activity	actually	add	address	administration	admit	adult	affect	after	again	against	age	agency	agent	ago	agree	agreement	ahead	air	all	allow	almost	alone	along	already	also	although	always	American	among	amount	analysis	and	animal	another	answer	any	anyone	anything	appear	apply	approach	area	argue	arm	around	arrive	art	article	artist	as	ask	assume	at	attack	attention	attorney	audience	author	authority'
+// { // ⚠️PROBLEM HERE
+//     const longWordsList = 'ability	able	about	above	accept	according	account	across	act	action	activity	actually	add	address	administration	admit	adult	affect	after	again	against	age	agency	agent	ago	agree	agreement	ahead	air	all	allow	almost	alone	along	already	also	although	always	American	among	amount	analysis	and	animal	another	answer	any	anyone	anything	appear	apply	approach	area	argue	arm	around	arrive	art	article	artist	as	ask	assume	at	attack	attention	attorney	audience	author	authority'
 
-    // ⚠️ I AM TRYING TO SPLIT THIS WORD LIST USING , ➡️ I FEEL LIKE THE SOLUTION WILL BE USING A FOREACH FUNCTION 
+//     // ⚠️ I AM TRYING TO SPLIT THIS WORD LIST USING , ➡️ I FEEL LIKE THE SOLUTION WILL BE USING A FOREACH FUNCTION 
 
-}
+// }
 
 { //⚠️ PROBLEMS HERE
-const longWordsArrayOne = new Array("ability,	able,	about,	above,	accept,	according,	account,	across,	act,	action,	activity,	actually,	add,	address,	administration,	admit,	adult,	affect,	after,	again,	against,	age,	agency,	agent,	ago,	agree,	agreement,	ahead,	air,	all,	allow,	almost,	alone,	along,	already,	also,	although,	always,	American,	among,	amount,	analysis");
-console.log(longWordsArrayOne);
+// const longWordsArrayOne = new Array("ability,	able,	about,	above,	accept,	according,	account,	across,	act,	action,	activity,	actually,	add,	address,	administration,	admit,	adult,	affect,	after,	again,	against,	age,	agency,	agent,	ago,	agree,	agreement,	ahead,	air,	all,	allow,	almost,	alone,	along,	already,	also,	although,	always,	American,	among,	amount,	analysis");
+// console.log(longWordsArrayOne);
 
-// ⚠️ ADDS A STUPID 'T' BEFORE EVERY WORD + DOESN'T CREATE AN ARRAY 
+// // ⚠️ ADDS A STUPID 'T' BEFORE EVERY WORD + DOESN'T CREATE AN ARRAY 
 
-const longWordsTwo = ["ability,	able,	about,	above,	accept,	according,	account,	across,	act,	action,	activity,	actually,	add,	address,	administration,	admit,	adult,	affect,	after,	again,	against,	age,	agency,	agent,	ago,	agree,	agreement,	ahead,	air,	all,	allow,	almost,	alone,	along,	already,	also,	although,	always,	American,	among,	amount,	analysis"]
-console.log(longWordsTwo);
+// const longWordsTwo = ["ability,	able,	about,	above,	accept,	according,	account,	across,	act,	action,	activity,	actually,	add,	address,	administration,	admit,	adult,	affect,	after,	again,	against,	age,	agency,	agent,	ago,	agree,	agreement,	ahead,	air,	all,	allow,	almost,	alone,	along,	already,	also,	although,	always,	American,	among,	amount,	analysis"]
+// console.log(longWordsTwo);
 
 // ⚠️ ADDS A STUPID 'T' BEFORE EVERY WORD + DOESN'T CREATE AN ARRAY 
 
