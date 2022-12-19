@@ -1,16 +1,41 @@
 // OBJECTS
-// const person_0 = {
-// first: 'john',
-// last: 'doe',
-// age: 30,
-// hobbies: ['music', 'running'],
-// address: {
-//     street: 'humberwood',
-//     city: 'michigan',
-//     country: 'USA  '
-// },
+const person = {
+first: 'john',
+last: 'doe',
+age: 30,
+hobbies: ['music', 'running'],
+address: {
+    street: 'humberwood',
+    city: 'michigan',
+    country: 'USA  '
+},
 
-// }
+}
+
+// console.log(person_0);
+
+let name = person.first;
+// console.log(name);
+let street = person.address.street;
+// console.log(street);
+let running = person.hobbies[1]
+console.log(running);
+
+const {first, last} = person
+
+console.log(first);
+
+// let addressNumber = person.address.push("unit: 404")
+// console.log(addressNumber);
+// console.log(person.address);
+
+// ADD OBJECT
+// add Unit number to Address object in person object
+
+const {address} = person
+let unit = address.assign(person, {"Unit" : "808"})
+console.log(unit);
+
 
 // 1 ➡️ get first
 // 2  ➡️ get first last

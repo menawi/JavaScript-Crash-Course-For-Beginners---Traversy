@@ -50,6 +50,8 @@ console.log(fruits.push("mangos"));
 console.log(fruits.unshift("mangos"));
 // result = "mangos" added to beginning of array
 
+array.method("thing")
+
 ```
 
 
