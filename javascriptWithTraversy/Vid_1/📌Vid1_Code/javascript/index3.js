@@ -30,31 +30,40 @@ const todo = [
 
     // 📍 for loops
 
-for (let i = 0; i <10; i++){
-  console.log(i)
-}
+// for (let i = 0; i <10; i++){
+//   console.log(i)
+// }
 
-for(let i = 0; i<=10; i++)
-{
-  console.log(`For Loop Number: ${i}`);
-}
+// for(let i = 0; i<=10; i++)
+// {
+//   console.log(`For Loop Number: ${i}`);
+// }
 
-// 📍 while loops
-// variable set outside the loop
+// // 📍 while loops
+// // variable set outside the loop
 
-let i = 0
-while(i<10){
-  console.log(`while loop number: ${i}`);
-  i++ //if you NOT include this, while loop will run forever and your laptop will freak out and explode and burn (partially true)
-}
+// let i = 0
+// while(i<10){
+//   console.log(`while loop number: ${i}`);
+//   i++ //if you NOT include this, while loop will run forever and your laptop will freak out and explode and burn (partially true)
+// }
 
 
 // 📍loop through arrays
 
-for(let i = 0; i <todo.length; i++){
-  console.log(todo[i].text);
-}
+// for(let i = 0; i <todo.length; i++){
+//   console.log(todo[i].text);
+// }
 
-for(let todo of todo){
-  console.log(todo.text);
-}
+// 📍for(let) 
+
+// for(let todos of todo){
+//   console.log(todos.text)
+// }
+
+// ⚠️todos here gives a name for the individaul objects within the array todo
+
+// for (every one of array todo){
+//   print todo.text within it
+// }
+
