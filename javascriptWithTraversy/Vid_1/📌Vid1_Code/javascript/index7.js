@@ -85,4 +85,3 @@ Object.prototype.getFullObject = function (){
 }
 
 console.log(Object_1.getFullObject());
-
