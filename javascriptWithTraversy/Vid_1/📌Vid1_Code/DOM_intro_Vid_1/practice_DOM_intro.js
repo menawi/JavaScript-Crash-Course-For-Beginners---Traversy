@@ -113,14 +113,14 @@ const btn = document.querySelector('.btn')
 // change form background color
 
 
-btn.addEventListener('click', (e) => {
-  e.preventDefault();
-document.querySelector('#my-form').style.background = '#ccc'
-// add class from css to body when click
-document.querySelector('body').classList.add('bg-dark');
-// change text
-document.querySelector('.items').lastElementChild.innerHTML = '<h1>Say Hello when clicked</h1>'
-})
+// btn.addEventListener('click', (e) => {
+//   e.preventDefault();
+// document.querySelector('#my-form').style.background = '#ccc'
+// // add class from css to body when click
+// document.querySelector('body').classList.add('bg-dark');
+// // change text
+// document.querySelector('.items').lastElementChild.innerHTML = '<h1>Say Hello when clicked</h1>'
+// })
 
 // there is also mouseover
 // mousehover
